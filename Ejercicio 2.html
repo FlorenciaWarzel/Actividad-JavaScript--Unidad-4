@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2, unidad 4 JavaScript</title>
+</head>
+<body>
+    <script>
+        var numeros=["2", "8", "20", "22", "5", "80", "30", "45", "41", "10"]
+        var num_mayor = 0;
+        console.log(numeros.length);
+		console.log(numeros);
+    
+    for (var i=0; i<numeros.length; i ++){
+        if (numeros[i]>num_mayor) {
+            num_mayor=numeros[i];
+        }
+    }
+    console.log('El número mayor de' + ' ' + numeros +' '+ 'es'+ ' ' + num_mayor);
+    </script>
+</body>
+</html>
