@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          var numero1= prompt('Ingrese un número');
+          var numero2= prompt ('Ingrese otro número');
+          var numero3= prompt ('Ingrese otro número');
+          var numeros= [(numero1),(numero2),(numero3)];
+          var num_mayor = 0;
+        console.log(numeros.length);
+		console.log(numeros);
+    
+    for (var i=0; i<numeros.length; i ++){
+        if (numeros[i]>num_mayor) {
+            num_mayor=numeros[i];
+        }
+    }
+    console.log('El número mayor de' + ' ' + numeros +' '+ 'es'+ ' ' + num_mayor);
+    </script>
+</body>
+</html>
